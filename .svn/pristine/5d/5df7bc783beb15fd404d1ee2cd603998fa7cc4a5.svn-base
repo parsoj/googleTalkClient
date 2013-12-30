@@ -1,0 +1,18 @@
+this google talk client copies the following code:
+function tlsInit(); is based heavily on the tls handshake method example given in the MP1 spec. It is mostly a copy of that example, with certain things removed. 
+
+the client() ad client_authenticate() functions are copied mostly from the example given for gsasl authentication. 
+
+the select() loop is partially based off of
+http://www.kernel.org/doc/man-pages/online/pages/man2/select_tut.2.html
+but it is heavily modified
+
+
+
+the helper functios for the roster and send receive functions were developed as they were needed
+ 
+also, helper functions for standard string sending and tls string sending were implemented for convienience. 
+
+
+
+I implemented all requested functions for this MP
